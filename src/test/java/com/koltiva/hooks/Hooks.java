@@ -8,7 +8,6 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import utils.AppiumServer;
 import utils.PropertyManager;
 
 import java.io.File;
@@ -69,7 +68,6 @@ public class Hooks {
         Thread.sleep(3000);
         driver.closeApp();
         driver.quit();
-        AppiumServer.stop();
     }
 
     @After(order = 1)
