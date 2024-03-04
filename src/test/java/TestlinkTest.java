@@ -7,7 +7,6 @@ import org.junit.Test;
 
 public class TestlinkTest {
 
-
     private String sourceDir;
         private String testlinkURL = "https://tcm.apps.kolti.net/lib/api/xmlrpc/v1/xmlrpc.php";
         private String devKey="9081583daaa1fe21d00475e596b43c89";
