@@ -46,7 +46,7 @@ public class Hooks {
         caps.setCapability("platformVersion", props.getProperty("data.platformVersion"));
         caps.setCapability("udid",props.getProperty("data.udid"));
         caps.setCapability("app", new File(System.getProperty("user.dir")
-                + "/src/test/resources/apk/apk-demo/saucedemo.apk").getAbsolutePath());
+                + "/src/test/resources/apk/apk-demo/MyDemoApp.apk").getAbsolutePath());
         caps.setCapability("appPackage", props.getProperty("data.appPackage"));
         caps.setCapability("appActivity", props.getProperty("data.appActivity"));
         caps.setCapability("automationName","UiAutomator2");
