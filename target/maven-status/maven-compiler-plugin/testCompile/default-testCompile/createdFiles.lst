@@ -1,0 +1,4 @@
+com\koltiva\stepdef\test\Test.class
+com\koltiva\hooks\Hooks.class
+com\koltiva\runners\RunCukesTest.class
+TestlinkTest.class

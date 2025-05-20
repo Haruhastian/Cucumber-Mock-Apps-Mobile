@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.koltiva</groupId>
-    <artifactId>Cucumber-apps-cocoatrace-cargill</artifactId>
+    <artifactId>Cucumber-mock-apps-mobile</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

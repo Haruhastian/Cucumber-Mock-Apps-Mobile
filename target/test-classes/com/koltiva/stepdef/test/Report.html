@@ -1,0 +1,682 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>testreport Positive Test</title>
+    <link type="text/css" rel="stylesheet" href="https://tcm.apps.kolti.net/gui/themes/default/css/tl_documents.css" />
+    <style type="text/css" media="print">
+        .notprintable {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+    <div>&nbsp;</div>
+    <hr />
+    <p style="text-align: center;">
+        <img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" width=231 height=56 src="https://tcm.apps.kolti.net/gui/themes/default/images/tl-logo-transparent-25.png" />
+    </p>
+</div>
+<div class="doc_title">
+    <p>Test Plan Execution Report</p>
+</div>
+<div class="doc_title" style="text-align:left;margin: auto;">
+    <p>Test Project: KoltiTrace Nestle <br />Test Plan: Sprint 53_26-6-2024_KoltiTrace MIS Nestle <br />Test Suite: Positive Test </p>
+</div>
+<div class="summary">
+    <p id="printedby">Printed by TestLink on 07/05/2024</p>
+</div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1>
+<div class="toc">
+    <p style="padding-left: 10px;">
+        <b>
+            <a href="#toc_1_1">1.1.Positive Test</a>
+        </b>
+    </p>
+    <p style="padding-left: 30px;">
+        <a href="#toc_tc25623">KOL-169: Only imports all of the Master Data</a>
+    </p>
+    <p style="padding-left: 30px;">
+        <a href="#toc_tc25626">KOL-170: Only imports the Metadata</a>
+    </p>
+    <p style="padding-left: 30px;">
+        <a href="#toc_tc35406">KOL-1071: iOS - Imports the Master Data and Metadata</a>
+    </p>
+    <p style="padding-left: 30px;">
+        <a href="#toc_tc59315">KOL-1701: Android - Imports the Master Data and Metadata</a>
+    </p>
+</div>
+<h1 class="doclevel">Test Project: KoltiTrace Nestle</h1>
+<div class="txtlevel">
+    <p>KoltiTrace Nestle</p>
+</div>
+<br />
+<p></p>
+<a name='toc_1_1'></a>
+<h1 class='doclevel'>1.1.Test Suite : Positive Test</h1>
+<div>
+    <p>This suite is for Positive exploratory function in the Home feature.</p>
+</div>
+<a name="toc_tc48261"></a>
+<p>&nbsp;</p>
+<a name="toc_tc25623"></a>
+<p>&nbsp;</p>
+<div>
+    <table class="tc" width="90%">
+        <tr>
+            <th colspan="6">Test Case KOL-169: Only imports all of the Master Data&nbsp; <span style="font-size: 80%;">[Version : 1]</span>
+            </th>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Author:</span>
+            </td>
+            <td colspan="5">rafiqah.majidah</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Last edit by:</span>
+            </td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Summary:</span>
+                <br />
+                <p>Scenario: The user only imports all of the Master Data</p>
+                <p>Given: The user is already logged in. <br /> When: The user opens the Import Wizard. <br /> And: The user chooses Master Data and chooses Online. <br /> And: The user chooses All Data and starts the Import. <br /> Then: The Master Data will be successfully imported. </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Preconditions:</span>
+                <br />
+                <p>The user&nbsp;should:</p>
+                <ul>
+                    <li>Already login.</li>
+                </ul>
+                <p>The data:</p>
+                <ul>
+                    <li>
+                        <p>Environment: Staging</p>
+                    </li>
+                    <li>
+                        <p>APK:&nbsp;Version 3.4.7 (448)</p>
+                    </li>
+                    <li>
+                        <p>Username: haur6</p>
+                    </li>
+                    <li>
+                        <p>Password: Password1234!</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="label">#:</span>
+            </td>
+            <td>
+                <span class="label">Step actions:</span>
+            </td>
+            <td>
+                <span class="label">Expected Results:</span>
+            </td>
+            <td>
+                <span class="label">Execution notes:</span>
+            </td>
+            <td>
+                <span class="label">Execution Status:</span>
+            </td>
+        </tr>
+        <tr>
+            <td width="5">1</td>
+            <td>
+                <p>When: The user opens the Import Wizard. <br /> And: The user chooses Master Data and chooses Online. <br /> And: The user chooses All Data and starts the Import. </p>
+            </td>
+            <td>
+                <p>Then: The Master Data will be successfully imported.</p>
+            </td>
+            <td>Passed</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution type:</span>
+            </td>
+            <td colspan="5">Manual</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Estimated exec. duration (min):</span>
+            </td>
+            <td colspan="5">20.00</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Priority:</span>
+            </td>
+            <td colspan="5">High</td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Requirements</span>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Keywords:</span>
+            </td>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr style="font-weight: bold;background: #EEE;text-align: left;">
+            <td width="20%" valign="top">Execution Details</td>
+            <td colspan="5">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Build</td>
+            <td colspan="5">Staging</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Tester</td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution Result:</span>
+            </td>
+            <td colspan="5">
+                <b>Passed</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution Mode:</span>
+            </td>
+            <td colspan="5">
+                <b>Manual</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution duration (min):</span>
+            </td>
+            <td colspan="5">
+                <b>20.00</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Execution notes</td>
+            <td colspan="5">Passed</td>
+        </tr>
+    </table>
+</div>
+<a name="toc_tc25626"></a>
+<p>&nbsp;</p>
+<div>
+    <table class="tc" width="90%">
+        <tr>
+            <th colspan="6">Test Case KOL-170: Only imports the Metadata&nbsp; <span style="font-size: 80%;">[Version : 1]</span>
+            </th>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Author:</span>
+            </td>
+            <td colspan="5">rafiqah.majidah</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Last edit by:</span>
+            </td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Summary:</span>
+                <br />
+                <p>Scenario: The user only imports Metadata.</p>
+                <p>When: The user is already logged in. <br /> And:&nbsp;The user opens the Account feature. <br /> And: The user opens Import Data. <br /> And: The user chooses Metadata Information and chooses Next. <br /> And: The user chooses Online and chooses Next. <br /> And: The user chooses Start. <br /> Then: The Metatada will be successfully imported. </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Preconditions:</span>
+                <br />
+                <p>The user&nbsp;should:</p>
+                <ul>
+                    <li>Already login.</li>
+                </ul>
+                <p>The data:</p>
+                <ul>
+                    <li>
+                        <p>Environment: Staging</p>
+                    </li>
+                    <li>
+                        <p>APK:&nbsp;Version 3.4.7 (448)</p>
+                    </li>
+                    <li>
+                        <p>Username: haur6</p>
+                    </li>
+                    <li>
+                        <p>Password: Password1234!</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="label">#:</span>
+            </td>
+            <td>
+                <span class="label">Step actions:</span>
+            </td>
+            <td>
+                <span class="label">Expected Results:</span>
+            </td>
+            <td>
+                <span class="label">Execution notes:</span>
+            </td>
+            <td>
+                <span class="label">Execution Status:</span>
+            </td>
+        </tr>
+        <tr>
+            <td width="5">1</td>
+            <td>
+                <p>When: The user is already logged in. <br /> And:&nbsp;The user opens the Account feature. <br /> And: The user opens Import Data. <br /> And: The user chooses Metadata Information and chooses Next. <br /> And: The user chooses Online and chooses Next. <br /> And: The user chooses Start. </p>
+            </td>
+            <td>
+                <p>Then: The Metatada will be successfully imported.</p>
+            </td>
+            <td>Passed</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution type:</span>
+            </td>
+            <td colspan="5">Manual</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Estimated exec. duration (min):</span>
+            </td>
+            <td colspan="5">20.00</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Priority:</span>
+            </td>
+            <td colspan="5">High</td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Requirements</span>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Keywords:</span>
+            </td>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr style="font-weight: bold;background: #EEE;text-align: left;">
+            <td width="20%" valign="top">Execution Details</td>
+            <td colspan="5">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Build</td>
+            <td colspan="5">Staging</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Tester</td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution Result:</span>
+            </td>
+            <td colspan="5">
+                <b>Passed</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution Mode:</span>
+            </td>
+            <td colspan="5">
+                <b>Manual</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution duration (min):</span>
+            </td>
+            <td colspan="5">
+                <b>20.00</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Execution notes</td>
+            <td colspan="5">Passed</td>
+        </tr>
+    </table>
+</div>
+<a name="toc_tc35406"></a>
+<p>&nbsp;</p>
+<div>
+    <table class="tc" width="90%">
+        <tr>
+            <th colspan="6">Test Case KOL-1071: iOS - Imports the Master Data and Metadata&nbsp; <span style="font-size: 80%;">[Version : 1]</span>
+            </th>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Author:</span>
+            </td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Summary:</span>
+                <br />
+                <p>Scenario: The user imports Master Data and Metadata <br />
+                    <br /> When: The user is already logged in. <br /> And:&nbsp;The user opens the Import Wizard. <br /> And: Chooses OK to Download All Data. <br /> Then: The Master Data and Metadata will be successfully imported.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Preconditions:</span>
+                <br />
+                <p>The user&nbsp;should:</p>
+                <ul>
+                    <li>Already login.</li>
+                </ul>
+                <p>The data:</p>
+                <ul>
+                    <li>Username: haru3</li>
+                    <li>Password1234!</li>
+                    <li>iOS Version: 17.4.1</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="label">#:</span>
+            </td>
+            <td>
+                <span class="label">Step actions:</span>
+            </td>
+            <td>
+                <span class="label">Expected Results:</span>
+            </td>
+            <td>
+                <span class="label">Execution notes:</span>
+            </td>
+            <td>
+                <span class="label">Execution Status:</span>
+            </td>
+        </tr>
+        <tr>
+            <td width="5">1</td>
+            <td>
+                <p>When: The user is already logged in. <br /> And:&nbsp;The user opens the Import Wizard. <br /> And: Chooses OK to Download All Data. </p>
+            </td>
+            <td>
+                <p>Then: The Master Data and Metadata will be successfully imported.</p>
+            </td>
+            <td>Passed</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution type:</span>
+            </td>
+            <td colspan="5">Manual</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Estimated exec. duration (min):</span>
+            </td>
+            <td colspan="5">20.00</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Priority:</span>
+            </td>
+            <td colspan="5">High</td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Requirements</span>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Keywords:</span>
+            </td>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr style="font-weight: bold;background: #EEE;text-align: left;">
+            <td width="20%" valign="top">Execution Details</td>
+            <td colspan="5">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Build</td>
+            <td colspan="5">Staging</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Tester</td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution Result:</span>
+            </td>
+            <td colspan="5">
+                <b>Passed</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution Mode:</span>
+            </td>
+            <td colspan="5">
+                <b>Manual</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution duration (min):</span>
+            </td>
+            <td colspan="5">
+                <b>20.00</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Execution notes</td>
+            <td colspan="5">Passed</td>
+        </tr>
+    </table>
+</div>
+<a name="toc_tc59315"></a>
+<p>&nbsp;</p>
+<div>
+    <table class="tc" width="90%">
+        <tr>
+            <th colspan="6">Test Case KOL-1701: Android - Imports the Master Data and Metadata&nbsp; <span style="font-size: 80%;">[Version : 1]</span>
+            </th>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Author:</span>
+            </td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Summary:</span>
+                <br />
+                <p>Scenario: The user imports Master Data and Metadata.</p>
+                <p>Given: The user is already logged in. <br /> When: The user opens the Import Wizard. <br /> And: The user chooses Master Data and chooses Online. <br /> And: The user chooses All Data and starts the Import. <br /> Then: The Master Data will be successfully imported. </p>
+                <p>&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <span class="label">Preconditions:</span>
+                <br />
+                <p>The user should:</p>
+                <ul>
+                    <li>
+                        <p>Already login.</p>
+                    </li>
+                </ul>
+                <p>The data:</p>
+                <ul>
+                    <li>
+                        <p>Environment: Staging</p>
+                    </li>
+                    <li>
+                        <p>APK:&nbsp;Version 3.4.7 (448)</p>
+                    </li>
+                    <li>
+                        <p>Username: haur6</p>
+                    </li>
+                    <li>
+                        <p>Password: Password1234!</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="label">#:</span>
+            </td>
+            <td>
+                <span class="label">Step actions:</span>
+            </td>
+            <td>
+                <span class="label">Expected Results:</span>
+            </td>
+            <td>
+                <span class="label">Execution notes:</span>
+            </td>
+            <td>
+                <span class="label">Execution Status:</span>
+            </td>
+        </tr>
+        <tr>
+            <td width="5">1</td>
+            <td>
+                <p>When: The user opens the Import Wizard. <br /> And: The user chooses Master Data and chooses Online. <br /> And: The user chooses All Data and starts the Import. <br /> &nbsp; </p>
+            </td>
+            <td>
+                <p>Then: The Master Data will be successfully imported.</p>
+            </td>
+            <td>Passed</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution type:</span>
+            </td>
+            <td colspan="5">Manual</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Estimated exec. duration (min):</span>
+            </td>
+            <td colspan="5">20.00</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Priority:</span>
+            </td>
+            <td colspan="5">High</td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Requirements</span>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Keywords:</span>
+            </td>
+            <td colspan="5">&nbsp;None <br />
+            </td>
+        </tr>
+        <tr style="font-weight: bold;background: #EEE;text-align: left;">
+            <td width="20%" valign="top">Execution Details</td>
+            <td colspan="5">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Build</td>
+            <td colspan="5">Staging</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Tester</td>
+            <td colspan="5">Hastian</td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">
+                <span class="label">Execution Result:</span>
+            </td>
+            <td colspan="5">
+                <b>Passed</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution Mode:</span>
+            </td>
+            <td colspan="5">
+                <b>Manual</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <span class="label">Execution duration (min):</span>
+            </td>
+            <td colspan="5">
+                <b>20.00</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" valign="top">Execution notes</td>
+            <td colspan="5">Passed</td>
+        </tr>
+    </table>
+</div>
+<h1 class="doclevel">Execution time metrics</h1>
+<div>
+    <p>Estimated time for executing 5 test cases (hours):1.33</p>
+    <p>Time used for executing 5 test cases (hours):1.5</p>
+</div>
+</body>
+</html>
